@@ -11,9 +11,9 @@
 #  print(counter)
 
 for x in range(20):
-  if x > 10:
-    print("less than ten", x)
+  if x < 10:
+    print(x, "less than ten")
   elif x == 10:
     print("x is ten")
   else:
-    print("greater than ten", x)
+    print(x, "greater than ten")
